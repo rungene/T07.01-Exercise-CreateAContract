@@ -8,12 +8,12 @@ public class WaitlistContract {
 
     // TODO (1) Create an inner class named WaitlistEntry class that implements the BaseColumns interface
 
-    public class WaitlistEntry implements BaseColumns{
+    public static final class WaitlistEntry implements BaseColumns{
 
-        static final String TABLE_NAME = "waitlist";
-        static final String COLUMN_GUEST_NAME = "guestName";
-        static final String COLUMN_PARTY_SIZE = "partySize";
-        static final String COLUMN_TIMESTAMP = "timeStamp";
+        public static final String TABLE_NAME = "waitlist";
+       public static final String COLUMN_GUEST_NAME = "guestName";
+        public static final String COLUMN_PARTY_SIZE = "partySize";
+       public static final String COLUMN_TIMESTAMP = "timeStamp";
 
 
 
